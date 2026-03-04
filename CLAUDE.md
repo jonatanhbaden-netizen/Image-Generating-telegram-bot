@@ -31,3 +31,14 @@ All game logic, styles, and markup live in `tic-tac-toe.html`. There are no exte
 - `.taken` — prevents re-clicking a cell (checked via `board[i]`, not the class)
 - `.win` — glowing highlight on winning cells
 - `.x` / `.o` — player-specific text color
+
+## Git Workflow
+
+This project uses Git (local) and GitHub (remote) for version control.
+Remote: https://github.com/jonatanhbaden-netizen/tic-tac-toe
+
+### Rules for Claude Code
+- After every meaningful change, commit and push to GitHub
+- Write clean, descriptive commit messages that explain what changed and why
+- Never leave work uncommitted — every completed task should result in a pushed commit
+- This ensures the project history is always recoverable and up to date
